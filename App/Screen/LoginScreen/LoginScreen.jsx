@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Image, Text, ScrollView, TouchableOpacity } from 'react-native';
 import * as WebBrowser from 'expo-web-browser';
-import Colors from './Utlis/Colors';
+import Colors from '../../Utlis/Colors';
 import { useWarmUpBrowser } from '../../../hooks/warmUpBrowser';
 import { useOAuth } from '@clerk/clerk-expo';
 

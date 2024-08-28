@@ -18,7 +18,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sandipan_2003.EVStation"
     },
     "web": {
       "favicon": "./assets/images/logo.png"
@@ -27,7 +28,14 @@
       "expo-font",
       "expo-router"
     ],
-     "scheme": "ev-station"
-
+    "scheme": "ev-station",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8910b2b9-2b46-412e-bf27-1a027e6a52fe"
+      }
+    }
   }
 }
